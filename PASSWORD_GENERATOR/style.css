@@ -1,0 +1,43 @@
+body {
+  background: rgb(95, 160, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(95, 160, 217, 1) 39%,
+    rgba(0, 255, 172, 1) 100%
+  );
+  font-family: "Noto Sans", sans-serif;
+}
+
+h1 {
+    color: aliceblue;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.password {
+  display: flex;
+  margin-top: 20px;
+}
+
+.password input {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.password button {
+  padding: 5px 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 0 10px;
+  }
+}
